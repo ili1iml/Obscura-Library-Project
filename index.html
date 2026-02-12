@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obscura Library - Est. 1892</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <svg class="logo-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <div class="logo-text">
+                        <h1>Obscura Library</h1>
+                        <p class="est">Est. 1892</p>
+                    </div>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="#catalog">Catalog</a>
+                    <a href="#collections">Collections</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <button class="menu-btn" id="menuBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="search-bar">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" placeholder="Search our collection..." id="searchInput">
+            </div>
+        </div>
+        <div class="header-border"></div>
+    </header>
+
+    <!-- Featured Section -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="featured-header">
+                <svg class="featured-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <h2>Featured Obscura</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="featured-content">
+                <div class="featured-image">
+                    <img src="images/book.jpg" alt="The Canterbury Tales">
+                </div>
+                <div class="featured-text">
+                    <h3>The Canterbury Tales</h3>
+                    <p class="author">Geoffrey Chaucer</p>
+                    <p class="description">A rare first edition from 1478, featuring illuminated manuscripts and hand-painted illustrations. This remarkable collection of stories has been meticulously preserved and represents one of the finest examples of medieval English literature.</p>
+                    <button class="btn-primary">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories-section">
+        <div class="container">
+            <h2>Browse by Category</h2>
+            
+            <div class="categories-grid">
+                <button class="category-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h4>Literature</h4>
+                    <p>2847 volumes</p>
+                </button>
+                
+                <button class="category-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 2v20"></path>
+                        <path d="M14 2v20"></path>
+                        <path d="M4 10h16"></path>
+                    </svg>
+                    <h4>History</h4>
+                    <p>1923 volumes</p>
+                </button>
+                
+                <button class="category-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+                        <path d="M9 18h6"></path>
+                        <path d="M10 22h4"></path>
+                    </svg>
+                    <h4>Philosophy</h4>
+                    <p>1456 volumes</p>
+                </button>
+                
+                <button class="category-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <h4>Geography</h4>
+                    <p>892 volumes</p>
+                </button>
+                
+                <button class="category-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 7.5L12 2l10 5.5"></path>
+                        <path d="M12 22V12"></path>
+                        <path d="M22 7.5V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7.5"></path>
+                    </svg>
+                    <h4>Arts</h4>
+                    <p>1234 volumes</p>
+                </button>
+                
+                <button class="category-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                        <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                        <path d="M4 22h16"></path>
+                        <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                        <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                        <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+                    </svg>
+                    <h4>Classics</h4>
+                    <p>2108 volumes</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Additions -->
+    <section class="books-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recent Additions</h2>
+                <p class="subtitle">Newly acquired treasures from private collections</p>
+                <div class="divider-center"></div>
+            </div>
+            
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book1.jpg" alt="Little Women">
+                        <div class="book-overlay"></div>
+                    </div>
+                    <div class="book-info">
+                        <span class="badge">Classics</span>
+                        <h3>Little Women</h3>
+                        <p class="book-author">Louisa May Alcott</p>
+                        <p class="book-year">1868</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book3.jpg" alt="The Metamorphosis">
+                        <div class="book-overlay"></div>
+                    </div>
+                    <div class="book-info">
+                        <span class="badge">Philosophy</span>
+                        <h3>The Metamorphosis</h3>
+                        <p class="book-author">Franz Kafka</p>
+                        <p class="book-year">1915</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book4.jpg" alt="The Stranger">
+                        <div class="book-overlay"></div>
+                    </div>
+                    <div class="book-info">
+                        <span class="badge">Literature</span>
+                        <h3>The Stranger</h3>
+                        <p class="book-author">Albert Camus</p>
+                        <p class="book-year">1942</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book2.jpg" alt="Anne Of Green Gables">
+                        <div class="book-overlay"></div>
+                    </div>
+                    <div class="book-info">
+                        <span class="badge">Classics</span>
+                        <h3>Anne of Green Gables</h3>
+                        <p class="book-author">L.M. Montgomery</p>
+                        <p class="book-year">1908</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book6.jpg" alt="The Brothers Karamazov">
+                        <div class="book-overlay"></div>
+                    </div>
+                    <div class="book-info">
+                        <span class="badge">Philosophy</span>
+                        <h3>The Brothers Karamazov</h3>
+                        <p class="book-author">Fyodor Dostoevsky</p>
+                        <p class="book-year">1880</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book5.jpg" alt="The Idiot">
+                        <div class="book-overlay"></div>
+                    </div>
+                    <div class="book-info">
+                        <span class="badge">Literature</span>
+                        <h3>The Idiot</h3>
+                        <p class="book-author">Fyodor Dostoevsky</p>
+                        <p class="book-year">1869</p>
+                    </div>
+                </div>
+
+                
+                    
+                   
+
+                
+            </div>
+            
+            <div class="text-center">
+                <button class="btn-secondary">View Full Catalog</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Information Section -->
+    <section class="info-section">
+        <div class="container info-container">
+            <h2>Welcome to Our Collection</h2>
+            <p class="info-text">
+                The Obscura Library houses over 50,000 rare volumes spanning centuries of human knowledge and creativity. 
+                From illuminated medieval manuscripts to first editions of literary masterpieces, our collection preserves 
+                the written heritage of civilization.
+            </p>
+            <p class="info-text-muted">
+                Established in 1892, we continue our mission to safeguard these treasures for future generations while 
+                making them accessible to scholars, researchers, and book enthusiasts from around the world.
+            </p>
+            <div class="info-buttons">
+                <button class="btn-accent">Plan Your Visit</button>
+                <button class="btn-outline">Research Services</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        <h3>Obscura Library</h3>
+                    </div>
+                    <p class="footer-text">Preserving knowledge and history since 1892.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#catalog">Catalog</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#research">Research Services</a></li>
+                        <li><a href="#digital">Digital Archive</a></li>
+                        <li><a href="#reading">Reading Rooms</a></li>
+                        <li><a href="#policies">Policies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>123 Heritage Lane<br>Classical District</span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>(555) 123-4567</span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            </svg>
+                            <span>info@obscura.lib</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Obscura Library. All rights reserved.</p>
+                <p class="footer-tagline">Custodians of Literary Heritage</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
