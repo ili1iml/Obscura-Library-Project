@@ -18,7 +18,7 @@ Obscura Library is a sophisticated, interactive web application designed to show
 ---
 
 ## 👩‍🎨 About the Author
-Developed by Mori, a passionate developer blending the world of digital art with modern web development.
+Developed by M, a passionate developer blending the world of digital art with modern web development.
 
 ---
 *Created as part of my professional web development portfolio - 2026
