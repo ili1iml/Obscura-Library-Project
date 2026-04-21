@@ -1,4 +1,4 @@
-// Mobile menu toggle (if needed in the future)
+// Mobile menu toggle 
 const menuBtn = document.getElementById('menuBtn');
 const searchInput = document.getElementById('searchInput');
 
